@@ -1,2 +1,53 @@
-# Windows-recon-w-local-storage-
-Comprehensive Windows recon payload for Hak5 Rubber Ducky 3.0 with USB storage exfiltration.
+# 🦆 Rubber Ducky Payload – Full Windows Recon & Data Dump to USB
+
+## 📋 Description
+This payload is designed for **Rubber Ducky 3.0** using the `ATTACKMODE HID STORAGE` feature. It performs a comprehensive reconnaissance of a Windows machine and exfiltrates the data directly to the Ducky's mounted USB storage — no internet required.
+
+> ⚠️ **For educational and authorized lab use only.**
+
+---
+
+## 🔍 What It Collects
+- Saved Wi-Fi SSIDs & passwords
+- System and OS info
+- User and group details
+- Installed software
+- Running processes (top by CPU)
+- Listening ports (via netstat)
+- Missing Windows patches
+- Privilege escalation indicators:
+  - Admin rights
+  - UAC config
+  - AlwaysInstallElevated
+  - Unquoted service paths
+  - Writable service binaries
+  - Weak scheduled tasks
+  - Writable registry keys
+- WSUS hijack config
+- Antivirus/EDR detection
+- Screenshot of desktop
+- Clipboard contents
+
+---
+
+## 💾 Output Files (Saved to Ducky USB)
+- `recon_report.txt`: All system and privilege info
+- `clipboard.txt`: Current contents of clipboard
+- `screenshot.jpg`: Screenshot of all monitors
+
+---
+
+## 🚀 Usage Instructions
+1. Format your Rubber Ducky’s SD card as **FAT32**.
+2. Save the payload as `inject.ducky` in the root directory.
+3. Plug the Ducky into a Windows machine.
+4. Wait ~30–60 seconds for the script to complete.
+5. Unplug the Ducky and check the USB files.
+
+---
+
+## 🛠 Requirements
+- Rubber Ducky 3.0+ with latest firmware
+- Payload configured using:
+  ```ducky
+  ATTACKMODE HID STORAGE
