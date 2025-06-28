@@ -38,11 +38,10 @@ This payload is designed for **Rubber Ducky 3.0** using the `ATTACKMODE HID STOR
 ---
 
 ## 🚀 Usage Instructions
-1. Format your Rubber Ducky’s SD card as **FAT32**.
-2. Save the payload as `inject.ducky` in the root directory.
-3. Plug the Ducky into a Windows machine.
-4. Wait ~30–60 seconds for the script to complete.
-5. Unplug the Ducky and check the USB files.
+1. Save the payload as `inject.ducky` in the root directory.
+2. Plug the Ducky into a Windows machine.
+3. Wait ~30–60 seconds for the script to complete.
+4. Unplug the Ducky and check the USB files.
 
 ---
 
