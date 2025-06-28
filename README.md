@@ -41,4 +41,3 @@ This payload is designed for **Rubber Ducky 3.0** using the `ATTACKMODE HID STOR
 1. Save the payload as `inject.ducky` in the root directory.
 2. Plug the Ducky into a Windows machine.
 3. Wait ~30–60 seconds for the script to complete.
-4. Unplug the Ducky and check the USB files.
