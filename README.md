@@ -1,3 +1,4 @@
+<img width="1721" height="914" alt="win11" src="https://github.com/user-attachments/assets/6bf1175d-994e-4870-9592-569b6c362c9f" />
 # 🦆 Rubber Ducky Payload – Full Windows Recon & Data Dump to USB
 
 ## 📋 Description
