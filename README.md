@@ -13,20 +13,7 @@ This payload is designed for **Rubber Ducky 3.0** using the `ATTACKMODE HID STOR
 - System and OS info
 - User and group details
 - Installed software
-- Running processes (top by CPU)
-- Listening ports (via netstat)
 - Missing Windows patches
-- Privilege escalation indicators:
-  - Admin rights
-  - UAC config
-  - AlwaysInstallElevated
-  - Unquoted service paths
-  - Writable service binaries
-  - Weak scheduled tasks
-  - Writable registry keys
-- WSUS hijack config
-- Antivirus/EDR detection
-- Screenshot of desktop
 - Clipboard contents
 
 ---
@@ -34,7 +21,7 @@ This payload is designed for **Rubber Ducky 3.0** using the `ATTACKMODE HID STOR
 ## 💾 Output Files (Saved to Ducky USB)
 - `recon_report.txt`: All system and privilege info
 - `clipboard.txt`: Current contents of clipboard
-- `screenshot.jpg`: Screenshot of all monitors
+
 
 ---
 
